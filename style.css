@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px 40px;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #434343;
+}
+main{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.retangulo{
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    background-color: #191B1D;
+    color: white;
+    margin-bottom: 40px;
+}
+.retangulo:hover{
+    border: 1px solid white;
+}
+.retangulo > img{
+    width: 100%;
+}
+.descricao, .botao{
+    padding: 20px;
+}
+.botao, .descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descricao{
+    flex-direction: column;
+}
+.botao > div{
+    background: #5C0D78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100px;
+}
+.botao > div:hover{
+    background-color: rgb(102, 22, 131);
+}
